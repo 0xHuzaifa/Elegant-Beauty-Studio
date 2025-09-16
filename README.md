@@ -1,73 +1,152 @@
-# Welcome to your Lovable project
+# 💇‍♀️ Elegant Beauty Studio
 
-## Project info
+A modern **React + TypeScript** website for a beauty studio offering services in **Hair Care, Skincare, Nail Care, and Wellness**.  
+Designed with a clean and elegant UI using **Tailwind CSS** and **shadcn/ui**, the project showcases a professional, responsive, and user-friendly service platform.
 
-**URL**: https://lovable.dev/projects/b294a22d-d47c-49d0-ad74-f3fe64945141
+---
 
-## How can I edit this code?
+## 🌐 Demo
 
-There are several ways of editing your application.
+🚀 Live Demo:-> [EBS](https://elegant-beauty-studio.vercel.app/)
 
-**Use Lovable**
+![EBS](https://res.cloudinary.com/dnanaysnp/image/upload/EBS-1_wjhidi.png)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b294a22d-d47c-49d0-ad74-f3fe64945141) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+- 💇 **Hair Services** – Explore styling, coloring, and treatment options
+- 💆 **Skincare** – Facials, treatments, and rejuvenation packages
+- 💅 **Nail Care** – Manicure, pedicure, and nail art services
+- 🧘 **Wellness** – Relaxation therapies for complete self-care
+- 📱 **Responsive Design** – Works seamlessly on mobile, tablet, and desktop
+- 🎨 **Modern UI/UX** – Built with Tailwind CSS & shadcn/ui components
+- ⚡ **Fast & Scalable** – Powered by React, TypeScript, and Vite
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+- **React** – Frontend framework
+- **TypeScript** – Type-safe development
+- **Vite** – Development & build tool
+- **Tailwind CSS** – Utility-first styling
+- **shadcn/ui** – Elegant pre-built UI components
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### ✅ Prerequisites
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- [Node.js](https://nodejs.org/) (16+ recommended)
+- npm or yarn
+
+### 📥 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/0xhuzaifa/elegant-beauty-studio.git
+cd elegant-beauty-studio
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+bun install
+```
+
+### ▶️ Running Locally
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+Preview the production build:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run serve
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📂 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+elegant-beauty-studio/
+├── public/                # Static assets
+├── src/
+│   ├── components/        # Reusable React components
+│   ├── pages/             # Pages (Hair, Skincare, Nails, Wellness, Home)
+│   ├── hooks/             # Custom hooks
+│   ├── utils/             # Helper functions
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── tailwind.config.ts
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/b294a22d-d47c-49d0-ad74-f3fe64945141) and click on Share -> Publish.
+## 📖 Project Overview
 
-## Can I connect a custom domain to my Lovable project?
+**Elegant Beauty Studio** is designed as a professional digital presence for a beauty services business. It highlights service categories such as hair, skincare, nails, and wellness, while providing a responsive, visually appealing interface.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## ✨ Key Features
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The site showcases core beauty services in a structured and user-friendly layout. It delivers a responsive design across devices, ensures fast performance with Vite, and leverages TypeScript for type safety. Tailwind CSS and shadcn/ui bring a polished and elegant design system.
+
+---
+
+## 🚧 Challenges
+
+The main challenges included creating a consistent design system with shadcn/ui, ensuring responsiveness across devices, and maintaining clean, reusable component structures in TypeScript.
+
+---
+
+## 🎯 Key Learnings
+
+This project reinforced practical skills in React and TypeScript, deepened knowledge of UI design with Tailwind CSS and shadcn/ui, and improved handling of reusable, scalable frontend architecture.
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of the homepage and service pages here.
+> ![EBS](https://res.cloudinary.com/dnanaysnp/image/upload/EBS-6_fxfccr.png)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add feature XYZ'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+---
+
+## 👤 Author
+
+**Huzaifa Ahmed**
+
+- GitHub: [0xHuzaifa](https://github.com/0xHuzaifa)
+- LinkedIn: [@0xHuzaifa](https://www.linkedin.com/in/0xhuzaifa)
